@@ -6,7 +6,8 @@
   "scripts": {
      "vercel-build": "npm install --legacy-peer-deps && npm run build",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "npm i --force"
   },
   "keywords": [],
   "author": "",
