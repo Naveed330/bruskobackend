@@ -6,6 +6,6 @@ const contactUsRoutes = express.Router();
 
 contactUsRoutes.post("/create-contact", createContact);
 contactUsRoutes.get("/get-all-contact", getAllContacts);
-contactUsRoutes.patch("/change-stage/:leadId", changeLeadStage);
+contactUsRoutes.put("/change-stage/:leadId", changeLeadStage);
 
 export default contactUsRoutes;
